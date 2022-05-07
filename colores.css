@@ -32,6 +32,7 @@ button{
 button:hover{
     background-color: rgb(64, 167, 13);
 }
+
 #logbotooon button{
     font-size: 1.25em;
     font-weight: bold;
