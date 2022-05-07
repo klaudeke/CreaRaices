@@ -22,7 +22,7 @@ button{
     font-size: 1.25em;
     font-weight: bold;
     padding: 5px 30px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 2px solid rgba(0,0,0,0.3);
     box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
     color: white;
@@ -293,12 +293,5 @@ footer .container{
         background-position-x: calc(100vw - 800px);
     }
 }
-img {
-    height: 300px;
-    width: 300px;
-    max-height: 200px;
-    max-width: 200px;
-    border-radius: 3px;
-    margin: 10px;
-}
+
 
