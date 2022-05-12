@@ -106,15 +106,18 @@
                     <label for="Telefono">Telefono (*)</label>
                     <input type="text" class="form-control" id="phoneInput" name="phone" placeholder="+569">
                 </div>
-
+                
+                <div id="map">
+                </div>
+                    <script
+                     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+                     defer
+                    ></script>
                     <p>(*) Los datos son de caracter obligatorio</p>
 
                 <hr>
 
-                 <div id="map"></div>
-
-    
-                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly" defer></script>
+                    
                 
                 <input type="submit" class="btn btn-primary" id="Registrar" value="Regristrar Ahora">
                 <div id="error" class="alert alert-danger" role="alert"></div>
