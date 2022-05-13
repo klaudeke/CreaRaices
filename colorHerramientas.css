@@ -362,8 +362,9 @@ button:hover{
 }
 
 .Formulario {
+    top: 50%;
     width: 400px;
-    height: 500px;
+    height: 350px;
     background: rgb(255, 255, 255); 
     margin: auto;
     margin-top: 180px;
