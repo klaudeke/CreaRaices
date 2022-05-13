@@ -56,6 +56,42 @@ button:hover{
 #logbotooon button:hover{
     background-color: rgb(253, 246, 246);
 }
+header{
+    background-color: rgb(245,245,245);
+    
+}
+
+header .logo{
+    margin: 0;
+    padding: 10px 10px;
+    font-weight: bold;
+    color: rgb(78, 162, 27);
+    font-size: 2.3em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: rgb(107, 186, 22);
+}
 form .username {
     position: relative;
     border-bottom: 2px solid silver;
@@ -154,3 +190,19 @@ input[type="submit"]:hover{
 .registrarse a:hover{
     text-decoration: underline;
 }
+@media (min-width: 850px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
