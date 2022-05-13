@@ -1,3 +1,4 @@
+
 *{
     box-sizing: border-box;
 }
@@ -9,6 +10,7 @@ html{
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    background-image: url(Fondo_5.gif) ;
 }
 
 h1{ font-size: 3.5em;}
