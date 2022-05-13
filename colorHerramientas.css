@@ -309,15 +309,6 @@ footer .container{
         background-position-x: calc(100vw - 800px);
     }
 }
-img {
-    height: 300px;
-    width: 300px;
-    max-height: 200px;
-    max-width: 200px;
-    border-radius: 3px;
-    margin: 10px;
-}
-
 .form-signin {
   width: 100%;
   max-width: 330px;
