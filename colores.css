@@ -103,7 +103,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("https://agroingeniacanarias.com/wp-content/uploads/2018/10/asesoramiento-en-jardineria-1-1080x675.jpg");
+    ,url("img/imagenini.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -206,7 +206,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("https://ichef.bbci.co.uk/news/640/cpsprodpb/121DB/production/_109730247_gettyimages-1094263056-1.jpg");
+    ,url("img/imagenfin.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -278,7 +278,7 @@ footer .container{
     }
 
     #crearaices .img-container{
-        background-image: url("https://www.elmueble.com/medio/2019/02/25/00427667_20133c54_1280x650.jpg");
+        background-image: url("img/imagennosotros.jpg");
         background-size: cover;
         background-position: center center;
         height: 500px;
